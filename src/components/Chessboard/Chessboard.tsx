@@ -1,5 +1,5 @@
-import React from 'react';
 import './Chessboard.css';
+import Tile from '../Tile/Tile';
 
 const Chessboard = () => {
     const board = new Array(64).fill(null);
@@ -12,7 +12,7 @@ const Chessboard = () => {
                 const j = Math.floor(index / 8);
                 const number = i + j + 2;
                 const className = tiles[number % 2];
-                return <div key={index} className={className}/>;
+                return <Tile key={index} className={className}/>;
             })}
         </div>
     );

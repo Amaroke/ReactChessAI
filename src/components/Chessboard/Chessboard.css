@@ -7,19 +7,6 @@
     background-color: #ffce9e;
 }
 
-#chessboard .tile {
-    padding-bottom: 12.5%;
-}
-
-#chessboard .black-tile {
-    background-color: #d18b47;
-}
-
-#chessboard .white-tile {
-    background-color: #ffce9e;
-}
-
-
 @media screen and (max-width: 800px) {
     #chessboard {
         width: 90%;

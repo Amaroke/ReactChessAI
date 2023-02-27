@@ -1,0 +1,11 @@
+.tile {
+    padding-bottom: 12.5%;
+}
+
+.black-tile {
+    background-color: #d18b47;
+}
+
+.white-tile {
+    background-color: #ffce9e;
+}
