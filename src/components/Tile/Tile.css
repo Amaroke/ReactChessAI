@@ -1,5 +1,7 @@
 .tile {
-    padding-bottom: 12.5%;
+    display: grid;
+    place-content : center;
+    min-height: 64px;
 }
 
 .black-tile {
@@ -8,4 +10,17 @@
 
 .white-tile {
     background-color: #ffce9e;
+}
+
+.tile .chess-piece {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+@media only screen and (max-width: 600px) {
+    .tile {
+        display: grid;
+        place-content : center;
+        min-height: 44px;
+    }
 }
